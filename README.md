@@ -51,29 +51,26 @@ A sleek and minimal blog app built using **Flutter** and **Firebase**. Users can
 
 ## 🎥 Demo / Screen Recording
 
-> Embed your video or GIF demo here.
-
-- [📽️ Watch Demo Video](#)  
-- Or add a short GIF showing app flow
+- [Watch Demo Video](https://drive.google.com/file/d/1MRH9kc5pP97CGkFJGtQP5ieZ8TuntTOr/view?usp=drivesdk) 
 
 ---
 
 ## 💡 Core Features
 
-- 🔐 **Authentication** — Login & Signup via Firebase Auth  
-- 📝 **Blog Management** — Create, edit, and delete blog posts  
-- ❤️ **Likes** — Like/unlike blog posts with real-time feedback  
-- 💬 **Comments** — Add and view comments on blogs  
-- 👤 **Profiles** — View author details and your own profile  
-- 🔄 **Live Updates** — Real-time Firestore data sync  
-- 🎨 **Responsive UI** — Clean, modern, and adaptive layout  
-- 🧩 **Provider Architecture** — Scalable and maintainable state management  
+-  **Authentication** — Login & Signup via Firebase Auth  
+-  **Blog Management** — Create, edit, and delete blog posts  
+-  **Likes** — Like/unlike blog posts with real-time feedback  
+-  **Comments** — Add and view comments on blogs  
+-  **Profiles** — View author details and your own profile  
+-  **Live Updates** — Real-time Firestore data sync  
+-  **Responsive UI** — Clean, modern, and adaptive layout  
+-  **Provider Architecture** — Scalable and maintainable state management  
 
 ---
 
 ## 🧾 Firestore Schemas
 
-### 🧑‍💼 `users` Collection
+###  `users` Collection
 
 ```json
 {
@@ -86,7 +83,7 @@ A sleek and minimal blog app built using **Flutter** and **Firebase**. Users can
 }
 ```
 
-### 🧑‍💼 `blogs` Collection
+###  `blogs` Collection
 
 ```json
 {
@@ -102,7 +99,7 @@ A sleek and minimal blog app built using **Flutter** and **Firebase**. Users can
 }
 ```
 
-### 🧑‍💼 `comments` Collection
+###  `comments` Collection
 
 ```json
 {
