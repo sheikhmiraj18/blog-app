@@ -28,7 +28,7 @@ A sleek and minimal blog app built using **Flutter** and **Firebase**. Users can
   <img src="screenshots/create.jpeg" width="350" />
   </p>
 - Edit Blog
-- <p align="center">
+  <p align="center">
   <img src="screenshots/edit.jpeg" width="350" />
   </p>
 - Profile Screen
