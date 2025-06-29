@@ -8,24 +8,46 @@ A sleek and minimal blog app built using **Flutter** and **Firebase**. Users can
 
 
 - Login
+  <p align="center">
+  <img src="screenshots/login.jpeg" width="200" />
+  </p>
 - Signup
+  <p align="center">
+  <img src="screenshots/signup.jpeg" width="200" />
+  </p>
 - Explore
+  <p align="center">
+  <img src="screenshots/explore.jpeg" width="200" />
+  </p>
 - Blog Detail
+  <p align="center">
+  <img src="screenshots/blog_detail.jpeg" width="200" />
+  </p>
 - Create Blog
-- Edir Blog
+  <p align="center">
+  <img src="screenshots/create.jpeg" width="200" />
+  </p>
+- Edit Blog
+- <p align="center">
+  <img src="screenshots/edit.jpeg" width="200" />
+  </p>
 - Profile Screen
+  <p align="center">
+  <img src="screenshots/profile.jpeg" width="200" />
+  </p>
 - User Profile Screen
+  <p align="center">
+  <img src="screenshots/profile.jpeg" width="200" />
+  </p>
 - Followers Screen
+  <p align="center">
+  <img src="screenshots/followers.jpeg" width="200" />
+  </p>
+- Comments
+  <p align="center">
+  <img src="screenshots/comments.jpeg" width="200" />
+  </p>
 
-<!-- Upload screenshots below -->
-<p align="center">
-  <img src="screenshots/login.png" width="200" />
-  <img src="screenshots/feed.png" width="200" />
-  <img src="screenshots/blog_detail.png" width="200" />
-  <img src="screenshots/profile.png" width="200" />
-</p>
-
----
 
 ## 🎥 Demo / Screen Recording
 
