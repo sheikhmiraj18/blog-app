@@ -1,16 +1,95 @@
-# blog_app
+# 📝 Flutter Blog App
 
-A Blog application with real-time authentication.
+A sleek and minimal blog app built using **Flutter** and **Firebase**. Users can sign up, post blogs, comment on other blogs, and interact with others.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📸 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Login
+- Signup
+- Explore
+- Blog Detail
+- Create Blog
+- Edir Blog
+- Profile Screen
+- Followers Screen
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<!-- Upload screenshots below -->
+<p align="center">
+  <img src="screenshots/login.png" width="200" />
+  <img src="screenshots/feed.png" width="200" />
+  <img src="screenshots/blog_detail.png" width="200" />
+  <img src="screenshots/profile.png" width="200" />
+</p>
+
+---
+
+## 🎥 Demo / Screen Recording
+
+> Embed your video or GIF demo here.
+
+- [📽️ Watch Demo Video](#)  
+- Or add a short GIF showing app flow
+
+---
+
+## 💡 Core Features
+
+- 🔐 **Authentication** — Login & Signup via Firebase Auth  
+- 📝 **Blog Management** — Create, edit, and delete blog posts  
+- ❤️ **Likes** — Like/unlike blog posts with real-time feedback  
+- 💬 **Comments** — Add and view comments on blogs  
+- 👤 **Profiles** — View author details and your own profile  
+- 🔄 **Live Updates** — Real-time Firestore data sync  
+- 🎨 **Responsive UI** — Clean, modern, and adaptive layout  
+- 🧩 **Provider Architecture** — Scalable and maintainable state management  
+
+---
+
+## 🧾 Firestore Schemas
+
+### 🧑‍💼 `users` Collection
+
+```json
+{
+  "uid": "string",
+  "username": "string",
+  "email": "string",
+  "profileImageUrl": "string",
+  "bio": "string",
+  "createdAt": "timestamp"
+}
+```
+
+### 🧑‍💼 `blogs` Collection
+
+```json
+{
+  "id": "string",
+  "title": "string",
+  "content": "string",
+  "authorId": "string",
+  "authorUsername": "string",
+  "authorProfileImageUrl": "string",
+  "likes": ["uid1", "uid2"],
+  "comments": ["commentId1"],
+  "createdAt": "timestamp"
+}
+```
+
+### 🧑‍💼 `comments` Collection
+
+```json
+{
+  "id": "string",
+  "blogId": "string",
+  "userId": "string",
+  "username": "string",
+  "profileImageUrl": "string",
+  "content": "string",
+  "createdAt": "timestamp"
+}
+```
+
