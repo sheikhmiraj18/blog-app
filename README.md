@@ -14,6 +14,7 @@ A sleek and minimal blog app built using **Flutter** and **Firebase**. Users can
 - Create Blog
 - Edir Blog
 - Profile Screen
+- User Profile Screen
 - Followers Screen
 
 <!-- Upload screenshots below -->
