@@ -3,6 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 
 class DefaultFirebaseOptions {
@@ -31,8 +32,8 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDzrGktMnkDCX1WO7kVLj75vvccGJXemEI',
+  static final FirebaseOptions web = FirebaseOptions(
+    apiKey: dotenv.env['API_KEY_web']!,
     appId: '1:840509322802:web:59d589aa38d556d6b86e2b',
     messagingSenderId: '840509322802',
     projectId: 'blog-app-76ae1',
@@ -41,16 +42,16 @@ class DefaultFirebaseOptions {
     measurementId: 'G-C97ZGYJJR0',
   );
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBAfwMw7I31vux1ev8UDGkiS59aAXkgaBY',
+  static final FirebaseOptions android = FirebaseOptions(
+    apiKey: dotenv.env['API_KEY_android']!,
     appId: '1:840509322802:android:e61a951074120ff9b86e2b',
     messagingSenderId: '840509322802',
     projectId: 'blog-app-76ae1',
     storageBucket: 'blog-app-76ae1.firebasestorage.app',
   );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDyxTOjYQ__Hf_3R0CgBroLZo0HhM3t_Sw',
+  static final FirebaseOptions ios = FirebaseOptions(
+    apiKey: dotenv.env['API_KEY_ios']!,
     appId: '1:840509322802:ios:06ec9e87b6cff91ab86e2b',
     messagingSenderId: '840509322802',
     projectId: 'blog-app-76ae1',
@@ -58,8 +59,8 @@ class DefaultFirebaseOptions {
     iosBundleId: 'com.example.blogApp',
   );
 
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDyxTOjYQ__Hf_3R0CgBroLZo0HhM3t_Sw',
+  static final FirebaseOptions macos = FirebaseOptions(
+    apiKey: dotenv.env['API_KEY_macos']!,
     appId: '1:840509322802:ios:06ec9e87b6cff91ab86e2b',
     messagingSenderId: '840509322802',
     projectId: 'blog-app-76ae1',
@@ -67,8 +68,8 @@ class DefaultFirebaseOptions {
     iosBundleId: 'com.example.blogApp',
   );
 
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDzrGktMnkDCX1WO7kVLj75vvccGJXemEI',
+  static final FirebaseOptions windows = FirebaseOptions(
+    apiKey: dotenv.env['API_KEY_windows']!,
     appId: '1:840509322802:web:741bcaa5caaf3aa8b86e2b',
     messagingSenderId: '840509322802',
     projectId: 'blog-app-76ae1',
