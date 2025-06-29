@@ -9,43 +9,43 @@ A sleek and minimal blog app built using **Flutter** and **Firebase**. Users can
 
 - Login
   <p align="center">
-  <img src="screenshots/login.jpeg" width="200" />
+  <img src="screenshots/login.jpeg" width="350" />
   </p>
 - Signup
   <p align="center">
-  <img src="screenshots/signup.jpeg" width="200" />
+  <img src="screenshots/signup.jpeg" width="350" />
   </p>
 - Explore
   <p align="center">
-  <img src="screenshots/explore.jpeg" width="200" />
+  <img src="screenshots/explore.jpeg" width="350" />
   </p>
 - Blog Detail
   <p align="center">
-  <img src="screenshots/blog_detail.jpeg" width="200" />
+  <img src="screenshots/blog_detail.jpeg" width="350" />
   </p>
 - Create Blog
   <p align="center">
-  <img src="screenshots/create.jpeg" width="200" />
+  <img src="screenshots/create.jpeg" width="350" />
   </p>
 - Edit Blog
 - <p align="center">
-  <img src="screenshots/edit.jpeg" width="200" />
+  <img src="screenshots/edit.jpeg" width="350" />
   </p>
 - Profile Screen
   <p align="center">
-  <img src="screenshots/profile.jpeg" width="200" />
+  <img src="screenshots/profile.jpeg" width="350" />
   </p>
 - User Profile Screen
   <p align="center">
-  <img src="screenshots/user_profile.jpeg" width="200" />
+  <img src="screenshots/user_profile.jpeg" width="350" />
   </p>
 - Followers Screen
   <p align="center">
-  <img src="screenshots/followers.jpeg" width="200" />
+  <img src="screenshots/followers.jpeg" width="350" />
   </p>
 - Comments
   <p align="center">
-  <img src="screenshots/comments.jpeg" width="200" />
+  <img src="screenshots/comments.jpeg" width="350" />
   </p>
 
 
