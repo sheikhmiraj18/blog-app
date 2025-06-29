@@ -37,7 +37,7 @@ A sleek and minimal blog app built using **Flutter** and **Firebase**. Users can
   </p>
 - User Profile Screen
   <p align="center">
-  <img src="screenshots/profile.jpeg" width="200" />
+  <img src="screenshots/user_profile.jpeg" width="200" />
   </p>
 - Followers Screen
   <p align="center">
